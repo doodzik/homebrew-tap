@@ -1,9 +1,9 @@
 class SimpleTask < Formula
   desc ""
   homepage ""
-  url "https://github.com/doodzik/simple_task/archive/0.0.1.tar.gz"
-  version "0.0.1"
-  sha256 "28a0d4eaa487076af4881c568662464413de6fd22edb0ed8b413f1ffa48a59b2"
+  url "https://github.com/doodzik/simple_task/archive/0.0.2.tar.gz"
+  version "0.0.2"
+  sha256 "36226e88bcc478c0524e49d0171171d81c17dbf6480ea55abf7888f4d065caa3"
 
   def install
     bin.install "simple_task_list" 
