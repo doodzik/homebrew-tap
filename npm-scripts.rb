@@ -1,13 +1,13 @@
 class NpmScripts < Formula
   desc "npm-scripts"
   homepage "https://github.com/doodzik/npm-scripts"
-  url "https://github.com/doodzik/npm-scripts/archive/0.0.1.tar.gz"
-  version "0.0.1"
-  sha256 "916a9de9cc9d39eda4d6bef40e4d5041a5b4c583f728fb07723c499a8ff83d6b"
+  url "https://github.com/doodzik/npm-scripts/archive/0.0.2.tar.gz"
+  version "0.0.2"
+  sha256 "02b797ff460f92e64202b11025da226a2c616763e8efcc886b43dfb05d35354d"
 
   def install
-    # system "make", "install"
     bin.install "n.sh"
+    bin.install "ninit"
   end
 end
 
