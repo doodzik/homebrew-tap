@@ -9,6 +9,6 @@ class SimpleTask < Formula
     bin.install "simple_task_list" 
     bin.install "simple_task"
     bin.install "_simple_task_complete"
-    bin.install "_simple_task_list_completen"
+    bin.install "_simple_task_list_complete"
   end
 end
