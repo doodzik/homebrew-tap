@@ -1,9 +1,9 @@
 class Note < Formula
   desc ''
   homepage ''
-  url 'https://github.com/doodzik/note/archive/0.0.1.tar.gz'
-  version '0.0.1'
-  sha256 'd9e15d20d35e413411aa3d29acc9f65bfb4602f3f866d5316cd0fbaf6d4269f9'
+  url 'https://github.com/doodzik/note/archive/0.0.2.tar.gz'
+  version '0.0.2'
+  sha256 '97c6e5bd12cebb8037c169afd948dbb42fb22d0443b081a57a1a469977aee420'
 
   def install
     bin.install 'note'
